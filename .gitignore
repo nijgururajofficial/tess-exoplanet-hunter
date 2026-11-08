@@ -7,3 +7,4 @@ __pycache__/
 # Downloaded MAST data, cached catalog queries, and generated results
 data/
 output/
+CLAUDE.md
