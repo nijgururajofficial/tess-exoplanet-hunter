@@ -1,0 +1,25 @@
+[project]
+name = "tess-exoplanet-hunter"
+version = "0.1.0"
+description = "Validate-first TESS transit search: BLS detection, automated false-positive vetting, pixel-level vetting."
+requires-python = ">=3.12"
+dependencies = [
+    "lightkurve",
+    "astropy",
+    "astroquery",
+    "matplotlib",
+    "numpy",
+    "scipy",
+    "pandas",
+    "tqdm",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
