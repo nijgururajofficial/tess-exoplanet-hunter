@@ -20,6 +20,7 @@ OUTPUT_DIR = ROOT / "output"
 PLOTS_VALIDATION = OUTPUT_DIR / "plots" / "validation"
 PLOTS_CANDIDATES = OUTPUT_DIR / "plots" / "candidates"
 CANDIDATES_CSV = OUTPUT_DIR / "new_candidates.csv"
+INSPECT_DIR = OUTPUT_DIR / "fits_inspect"          # quick-look plots / CSVs from inspect_fits.py
 
 # ---------------------------------------------------------------- physical constants
 R_SUN_IN_R_EARTH = 109.076          # R_sun / R_earth (equatorial)
